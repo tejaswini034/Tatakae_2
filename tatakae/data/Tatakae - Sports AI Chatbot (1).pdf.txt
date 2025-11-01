@@ -1,0 +1,52 @@
+
+
+TATAKAE
+TATAKAE
+PRESENTS:
+PRESENTS:
+TATAKAE
+PRESENTS:
+T E J A S W I N I   P O N N A D A   -   2 4 5 8 9 1 2 5 0
+S W A N D I T A   R E D D Y   -   2 4 5 8 1 6 0 6 2
+M U K T A   K U R U N D K A R   -   2 4 5 8 9 1 1 0 4
+Tatakae
+
+PROBLEM STATEMENT
+AI in Sports:  Custom training program generation
+Build a chatbot trained to take input parameters such as age, height, weight, gender, sport,
+duration, goals, etc. and generate a training program for the athlete. 
+Generate detailed training programs with exercises/drills, duration and frequency of workouts
+for a wide variety of sports. 
+Answer general questions on training regimes and their effectiveness for given goals. 
+
+WHY?
+Many athletes/trainers struggle to design custom, effective training programs.
+Each sport and athlete’s physiology varies and generic programs online lack
+personalization and adaptation.
+There is thus a need for an intelligent chatbot that creates personalized, detailed
+training programs and answers sports-related fitness queries.
+
+A conversational chatbot that :
+Uses RAG (Retrieval-Augmented Generation) using data from
+real research papers+ Mistral LLM for smarter, context-based
+responses.
+Is Personalized: Takes input parameters (age, gender, sport,
+goals, etc.) and generates training plans (drills, frequency,
+duration)
+Answers training and performance-related queries — RAG
+context retrieval.
+Covers multiple sports — Use multi-sport dataset
+SOLUTION + PLAN 
+
+WHY MISTRAL LB?
+Open-source and lightweight 
+Free to deploy
+High reasoning and instruction-following ability
+Works efficiently with LangChain + RAG
+Plan:
+Use LangChain for orchestration
+Connect Mistral (via Hugging Face API)
+Use RAG pipeline to retrieve relevant training data before generation
+
+THANK
+YOU :3
